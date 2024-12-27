@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="flex justify-between items-center text-black text-sm">
         <span>© 2023 Scripts Hub. All Rights Reserved.</span>
         <div>
-          <a href="/contact" className="hover:text-gray-700">
+          <a href="#" className="hover:text-gray-700">
             Contact Us
           </a>
         </div>

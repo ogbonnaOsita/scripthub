@@ -22,7 +22,7 @@ const SearchInput = ({ isLoggedIn = false }) => {
     script.title.toLowerCase().includes(search.toLowerCase())
   );
 
-  // Close dropdown when clicking outside
+  // Close dropdown when the user clicks outside
   const closeDropdownOnOutsideClick = (event) => {
     if (
       searchInputRef.current &&
@@ -42,21 +42,18 @@ const SearchInput = ({ isLoggedIn = false }) => {
   // Handle search input change
   const handleInputChange = (e) => {
     setSearch(e.target.value);
-    if (!open) setOpen(true); // Open dropdown when typing
+    if (!open) setOpen(true); // Open dropdown when the user is typing
   };
 
-  // Handle item click in the dropdown
   const handleItemClick = (title) => {
     setSearch(title);
     setOpen(false);
   };
 
-  // Handle login button click
   const handleLoginClick = () => {
     console.log("Login clicked");
   };
 
-  // Handle demo button click
   const handleDemoClick = (demoVideoUrl) => {
     if (demoVideoUrl) {
       openModal(demoVideoUrl);
@@ -65,9 +62,8 @@ const SearchInput = ({ isLoggedIn = false }) => {
     }
   };
 
-  // Toggle dropdown when search button is clicked
   const handleSearchButtonClick = () => {
-    setOpen((prev) => !prev); // Toggle dropdown state
+    setOpen((prev) => !prev);
   };
 
   return (
@@ -107,7 +103,6 @@ const SearchInput = ({ isLoggedIn = false }) => {
                 aria-selected={search === script.title}
               >
                 <div className="flex items-center mx-auto ">
-                  {/* Fallback for missing imageUrl */}
                   <div className="sm:w-36 w-24 md:aspect-video aspect-square sm:mr-10 mr-4 inline-flex items-center justify-center rounded-sm bg-gray-100 flex-shrink-0">
                     <img
                       src={script.imageUrl || "https://via.placeholder.com/150"}
@@ -116,7 +111,6 @@ const SearchInput = ({ isLoggedIn = false }) => {
                     />
                   </div>
                   <div className="flex-grow text-left sm:mt-0">
-                    {/* Script Title */}
                     <h2 className="text-black md:text-lg  font-semibold">
                       {script.title}
                     </h2>

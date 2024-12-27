@@ -3,19 +3,6 @@
 import React from "react";
 import clsx from "clsx";
 
-/**
- * A reusable custom button component.
- * 
- * @param {Object} props - Component props.
- * @param {string} props.variant - The button style variant (e.g., "primary", "secondary", "outline", "danger").
- * @param {string} props.size - The size of the button (e.g., "small", "medium", "large").
- * @param {boolean} props.isDisabled - Whether the button is disabled.
- * @param {boolean} props.isFullWidth - Whether the button should span the full width.
- * @param {React.ReactNode} props.icon - Optional icon to display in the button.
- * @param {string} props.className - Additional custom classes.
- * @param {function} props.onClick - Function to handle button click.
- * @param {React.ReactNode} props.children - Button content.
- */
 const CustomButton = ({
   variant = "primary",
   size = "medium",

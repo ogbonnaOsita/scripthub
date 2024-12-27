@@ -51,7 +51,6 @@ const ScriptCard = ({
           {title}
         </h5>
         <p className="text-sm mb-2">{limitText(description, 100)}</p>
-        {/* Spacer to push the buttons down */}
         <div className="flex items-center justify-between gap-2 mt-auto">
           {bought ? (
             isLoggedIn ? (
