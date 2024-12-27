@@ -1,0 +1,67 @@
+{
+  "scripts": [
+    {
+      "id": 1,
+      "imageUrl": "https://market-resized.envatousercontent.com/codecanyon.net/files/556396876/chatpion_cover.jpg?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=832cc3a3709a7f1a38a8be1adf7ab265fd48c32b39d169c5e67c19ad759a69a3",
+      "title": "ChatPion: AI Chatbot for Social Media Marketing (SaaS)",
+      "price": "10",
+      "bought": true,
+      "demoVideoUrl": "https://www.youtube.com/embed/YRGiYySpH5Y",
+      "description": "An advanced AI chatbot designed for automating social media marketing tasks and boosting engagement."
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://market-resized.envatousercontent.com/codecanyon.net/files/551916787/envato-banner-590x300.png?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=4595158b8d1d6a1fc92a8dda942d328433965f76c3f43e9dc8232c4ebaf79c16",
+      "title": "Sonivo - Ai cloud call center SAAS system",
+      "price": "120",
+      "bought": true,
+      "demoVideoUrl": "https://www.youtube.com/embed/_WrMzFlLk7Q",
+      "description": "A cutting-edge AI-powered cloud call center solution for streamlined communication and management."
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://market-resized.envatousercontent.com/codecanyon.net/files/550671643/image.png?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=2f72f898de7ffc5c11540e143131a0640c38de96467c545a69d2c5071da21173",
+      "title": "vCard SaaS - Business Card Builder SaaS - Laravel VCard Saas - NFC Card",
+      "price": "29",
+      "bought": true,
+      "demoVideoUrl": "https://www.youtube.com/embed/f9wJBdFy6sQ",
+      "description": "A Laravel-based platform for creating digital business cards and NFC solutions."
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://market-resized.envatousercontent.com/codecanyon.net/files/511359205/hero_banner-v2.png?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=492f676286d331136390896e4143dfdab8ea724f50c016dfe74f201f85c3362c",
+      "title": "WhatsCRM - Chatbot, Flow Builder, API Access, WhatsApp CRM SAAS System",
+      "price": "200",
+      "bought": false,
+      "demoVideoUrl": "https://www.youtube.com/embed/6vwNcNOTVzY",
+      "description": "A comprehensive WhatsApp CRM system with chatbot and flow builder features for businesses."
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://market-resized.envatousercontent.com/codecanyon.net/files/557842767/preview.jpg?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=2812eb87836f1fd70a9baa3c5c2a1732dc121bf4f2f66508875665797bf0a1cc",
+      "title": "SocialAI - Artificial Intelligence Based Social Media Automation & Marketing Tool (SAAS)",
+      "price": "124",
+      "bought": false,
+      "demoVideoUrl": "https://www.youtube.com/embed/6vwNcNOTVzY",
+      "description": "An AI-driven tool for automating social media marketing and managing multiple platforms effectively."
+    },
+    {
+      "id": 6,
+      "imageUrl": "https://market-resized.envatousercontent.com/codecanyon.net/files/501343154/envato_hero.png?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=3e719f02f05b9c6b7d5890ae028cd2864e529e7efb059c52fd121250982380e6",
+      "title": "AI Chat for WhatsApp - Add-on for WhatsCRM",
+      "price": "140",
+      "bought": true,
+      "demoVideoUrl": "https://www.youtube.com/embed/6vwNcNOTVzY",
+      "description": "An add-on for WhatsCRM enabling advanced AI chat capabilities on WhatsApp."
+    },
+    {
+      "id": 7,
+      "imageUrl": "https://market-resized.envatousercontent.com/codecanyon.net/files/501912881/hero_banner_590x300.png?auto=format&q=94&cf_fit=crop&gravity=top&h=8000&w=590&s=6d5b9a1b7e44cf40f4a13740e19ae78c2ee42cde7f66ee2011f3784c582d81fe",
+      "title": "WhatsHam - Cloud based WhatsApp SASS, Wa Warmer, CRM",
+      "price": "79",
+      "bought": false,
+      "demoVideoUrl": "https://www.youtube.com/embed/6vwNcNOTVzY",
+      "description": "A cloud-based WhatsApp SaaS platform offering CRM features and WA warmer capabilities."
+    }
+  ]
+}
